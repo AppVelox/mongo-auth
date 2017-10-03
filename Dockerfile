@@ -1,5 +1,5 @@
-FROM mongo:3
-MAINTAINER Umputun <mongo@umputun.com>
+FROM mongo:3.4
+MAINTAINER Appvelox <volkov@appvelox.ru>
 
 ADD init.sh /init.sh
 RUN \
